@@ -72,6 +72,7 @@ form input {
     border-radius: 7px;
     margin-top: 1.04vh;
     padding-left: 20px;
+    border: 2px solid var(--dark-grey);
 }
 
 .flex {
@@ -117,7 +118,12 @@ button {
     font-size: 16px;
     font-weight: bold;
     color: var(--white);
+    transition: 0.3s;
     
+}
+
+button:hover{
+    transform: scale(1.1);
 }
 
 .login-contain a {
