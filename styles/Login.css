@@ -12,6 +12,8 @@ main {
     --green: #29903B ;
     --grey: #9198A1;
     --dark-grey: #0D1117 ;
+    --white: #FFFFF;
+    --black: #000000;
 }
 
 .login-contain {
