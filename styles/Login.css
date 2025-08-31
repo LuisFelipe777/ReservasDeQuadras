@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    --green: #29903B ;
+    --grey: #9198A1;
+    --dark-grey: #0D1117 ;
+}
+
+.login-contain {
+    width: calc(50% - 200px);
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.logo-ball{
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.logo-ball img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.title span {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.title p {
+    font-size: 14px;
+
+}
+
+.title {
+    margin-bottom: 70px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 55%;
+    max-width: 400px;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.flex input {
+
+    width: 20px;
+}
+
+.flex span {
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.checkbox {
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox a {
+    margin-top: 18px;
+}
+
+button {
+    width: 110px;
+    max-width: 400px;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 10px;
+
+    margin-bottom: 55px;
+    
+}
